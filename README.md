@@ -243,17 +243,6 @@ Issues: https://github.com/samarth-mistry-magicedtech/generic-spline/issues
 
 ---
 
-## Should we add starter materials?
-Yes—recommended. Two options:
-- **Samples~/** — Provide example materials and a sample scene users can import via Package Manager (best practice for examples).
-- **Runtime/Materials/** — Include a minimal neutral PBR material so the cable renders immediately.
-
-If you want, I can add:
-- `Samples~/Basic Materials` with a simple metallic rubber cable material and a demo scene
-- `Runtime/Materials/Cable_Default.mat` as a default assignment
-
----
-
 ## Folder Suggestions
 - `Runtime/` — scripts, core assets
 - `Editor/` — editor tooling and gizmos
