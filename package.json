@@ -1,6 +1,6 @@
 {
   "name": "com.magicedtech.three-point-spline-3d",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Three Point Spline 3D",
   "description": "A generic, extensible spline runtime for Unity with editor utilities. Designed to be engine-agnostic and easy to integrate.",
   "unity": "6000.0",
