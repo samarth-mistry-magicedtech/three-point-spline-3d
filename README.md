@@ -174,16 +174,23 @@ Higher `segments` = smoother cable but more vertices. Recommended: **64–96** f
 
 ## Installation
 
-### A) Add as Local UPM Package (Recommended)
+### Option A) Git URL (Recommended)
 1. Open Unity → Window → Package Manager
-2. Click **+** → **Add package from disk…**
-3. Select `Packages/com.magicedtech.generic-spline/package.json`
+2. Click **+** → **Add package from git URL…**
+3. Paste the following URL (click the copy button on GitHub):
 
-### B) Import .unitypackage (Legacy Option)
-If you have `GenericCable.unitypackage`:
-1. Assets → Import Package → Custom Package…
-2. Select `GenericCable.unitypackage`
-3. Import the script(s) and assets
+```bash
+https://github.com/samarth-mistry-magicedtech/generic-spline.git#v1.0.0
+```
+
+Notes:
+- Tags are recommended for reproducible installs.
+- Requires Unity Splines `2.8.2` (auto-installed via dependencies).
+
+### Option B) Local package from disk
+1. Clone the repo locally
+2. In Package Manager: **+** → **Add package from disk…**
+3. Select the repo's `package.json`
 
 ---
 
@@ -231,9 +238,8 @@ If your object has a `"Tip"` child:
 ---
 
 ## Source Code
-A fully improved GenericCable Package is included with this UPM. If you maintain an external distribution, include a link here.
-
-`https://drive.google.com/file/d/12PLcBey8_psdPjJmireBpkSyvVvCKP5j/view?usp=drive_link`
+Repository: https://github.com/samarth-mistry-magicedtech/generic-spline
+Issues: https://github.com/samarth-mistry-magicedtech/generic-spline/issues
 
 ---
 
